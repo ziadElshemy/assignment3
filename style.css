@@ -1,0 +1,26 @@
+/* ===== Shared ===== */
+body { font-family: Arial, sans-serif; background: #f2f4f7; margin: 0; padding: 40px 16px; }
+h1 { font-size: 22px; }
+
+/* ===== validation.html ===== */
+#regForm { max-width: 380px; margin: 0 auto; background: #fff; padding: 24px; border-radius: 8px; border: 1px solid #d8dce3; }
+#regForm h1 { margin-top: 0; }
+.field { margin-bottom: 14px; }
+#regForm label { display: block; margin-bottom: 4px; font-weight: bold; font-size: 14px; }
+#regForm input { width: 100%; padding: 8px; box-sizing: border-box; border: 1px solid #aab; border-radius: 4px; font-size: 15px; }
+#regForm input.invalid { border-color: #c62828; }
+.error { color: #c62828; font-size: 13px; min-height: 16px; margin-top: 3px; }
+#regForm button { width: 100%; padding: 10px; background: #1f5fbf; color: #fff; border: 0; border-radius: 4px; font-size: 16px; cursor: pointer; }
+#regForm button:hover { background: #174a96; }
+#success { color: #2e7d32; margin-top: 12px; text-align: center; font-weight: bold; }
+
+/* ===== data.html ===== */
+.container { max-width: 640px; margin: 0 auto; }
+.controls { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+#search { flex: 1; min-width: 180px; padding: 8px; font-size: 15px; border: 1px solid #aab; border-radius: 4px; }
+.controls button { padding: 8px 14px; background: #1f5fbf; color: #fff; border: 0; border-radius: 4px; font-size: 14px; cursor: pointer; }
+.controls button:hover { background: #174a96; }
+table { width: 100%; border-collapse: collapse; background: #fff; }
+th, td { text-align: left; padding: 10px; border-bottom: 1px solid #e1e4ea; }
+th { background: #e8ecf3; }
+#empty { margin-top: 12px; color: #666; }

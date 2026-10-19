@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Data Table</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>People</h1>
+
+    <div class="controls">
+      <input type="text" id="search" placeholder="Search by name, age, or city...">
+      <button id="sortName">Sort by name</button>
+      <button id="sortAge">Sort by age</button>
+    </div>
+
+    <table>
+      <thead>
+        <tr><th>Name</th><th>Age</th><th>City</th></tr>
+      </thead>
+      <tbody id="tableBody"></tbody>
+    </table>
+    <div id="empty"></div>
+  </div>
+
+  <script src="App.js"></script>
+</body>
+</html>
